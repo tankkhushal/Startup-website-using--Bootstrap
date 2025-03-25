@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+
+    <link href="remix/remixicon.css" type="text/css" rel="stylesheet">
+    <link href="css/all.min.css" type="text/css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class=" navbar navbar-expand-lg position-absolute top-0 start-0 w-100 py-4 ">
+        <div class="container">
+            <div class="logo text-dark">
+                <img src="images/logo.png.webp" alt="logo">
+            </div>
+
+            <a href="#" class="order-lg-1 me-3 navbar-toggler nav-link text-white" data-bs-target="#one"
+            data-bs-toggle="offcanvas"><i class="ri-menu-line"></i></a>
+        
+
+
+            <nav class="navbar-collapse collapse" id="abc">
+                <ul class="navbar-nav ms-auto me-5">
+                    <li class=""><a href="#" class="nav-link text-white mx-3 py-4">HOME</a></li>
+                    <li class=""><a href="#" class="nav-link text-white mx-3 py-4">SERVICE</a></li>
+                    <li class=""><a href="#" class="nav-link text-white mx-3 py-4">PORTFOLIO</a></li>
+                    <li class="drop position-relative">
+                        <a href="#" class="nav-link text-white mx-3 py-4"><i class="ri-arrow-down-s-line"></i>PAGES
+                        </a>
+                        <div class="drop-menu  bg-white position-absolute top-100 start-0 ">
+                            <ul class="list-unstyled">
+                                <li class=""><a href="#" class="nav-link">Portfolio Details</a></li>
+                                <li class=""><a href="#" class="nav-link">About</a></li>
+                                <li class=""><a href="#" class="nav-link">Elements</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="drop position-relative">
+                        <a href="#" class="nav-link text-white mx-3 py-4"><i class="ri-arrow-down-s-line"></i>BLOG
+                        </a>
+                        <div class="drop-menu  bg-white position-absolute top-100 start-0 ">
+                            <ul class="list-unstyled">
+                                <li class=""><a href="#" class="nav-link">Blog</a></li>
+                                <li class=""><a href="#" class="nav-link">single-Blog</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#" class="nav-link text-white mx-3 py-4">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div>
+                <a href="#" class="nav-link border-bottom border-primary border-2  text-white ms-5 py-1 px-2">Say Hello</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-start" id="one" data-bs-backdrop="static">
+        <div class="offcanvas-header bg-danger">
+            <h2 class="offcanvas-title">Menu</h2>
+            <a href="#" class="btn btn-close " data-bs-dismiss="offcanvas"></a>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="dropdown-item list-unstyled navbar-nav">
+                <li><a href="#" class=" mx-3 ">HOME</a></li>
+                <li><a href="#" class=" mx-3 ">ABOUT</a></li>
+                <li><a href="#" class=" mx-3 ">SERVICES</a></li>
+                <li><a href="#" class=" mx-3 ">PORTFOLIO</a></li>
+                <li><a href="#" class=" mx-3 ">TEAM</a></li>
+                <li><a href="#" class=" mx-3 ">BLOG</a></li>
+                <li class="dropdown"><a href="#" class="text-decoration-none dropdown-toggle "
+                        data-bs-toggle="dropdown">DROP DOWN</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" class="dropdown-item">Drop Down 1</a></li>
+                        <li class="dropdown"><a href="#" class="text-decoration-none dropdown-toggle"
+                                data-bs-toggle="dropdown">Deep Drop Down</a></li>
+                        <li><a href="#" class="dropdown-item">Drop Down 2</a></li>
+                        <li><a href="#" class="dropdown-item">Drop Down 3</a></li>
+                        <li><a href="#" class="dropdown-item">Drop Down 4</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class=" ">BLOG</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- banner -->
+    <main>
+        <section class="banner d-flex align-items-center">
+            <div class="container">
+                <div class="banner-content">
+                    <h1 class="text-white w-75 display-2 fw-semibold">Startup you can build a website online using the
+                        Bootstrap builder.</h1>
+                    <a href="#" class="btn btn-primary text-white rounded-pill py-2 px-4 mt-5">Vision Our Work</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- service -->
+        <section class="py">
+            <div class="container">
+                <div class="service-title  text-center py-5">
+                    <h6 class="text-primary py-4">Services</h6>
+                    <h2 class="fw-semibold">With more than 20 years of experience we can deliver the best product
+                        design.</h2>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-6">
+                        <div class="card m-3">
+                            <div class="card-body p-5  border-2 text-center">
+                                <img src="images/s1.svg" alt="">
+                                <h3 class="py-3">Graphic design</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6">
+                        <div class="card m-3">
+                            <div class="card-body p-5  border-2 text-center">
+                                <img src="images/s2.svg" alt="">
+                                <h3 class="py-3">Graphic design</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6">
+                        <div class="card m-3">
+                            <div class="card-body p-5  border-2 text-center">
+                                <img src="images/s3.svg" alt="">
+                                <h3 class="py-3">Graphic design</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- about -->
+        <section class="py about">
+            <div class="about">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="about-img">
+                            <img src="images/about.webp" class="img-fluid w-100" alt="about">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 bg-black">
+                        <div class="container">
+                            <div class="about-item text-white py-5 px-5">
+                                <h6 class="pb-2">About Us</h6>
+                                <h2 class="fw-semibold fs-1 pb-5">Empowering individuals</h2>
+                                <p class="text-light">Efficiently unleash cross-media tour function information without
+                                    cross action media
+                                    value.
+                                    Quickly maximize timely deliverables for real-time schemas.</p>
+                                <p class="text-light pb-5">“Function information without cross action media value.</p>
+                                <a href="#" class="btn btn-primary rounded-pill px-5 py-2">About Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- work -->
+
+        <section class="py">
+            <div class="work-title text-center pb-5">
+                <h2>Featured Works</h2>
+                <p>Tour function information without cross action media value quickly maximize timely deliverables.</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12">
+                        <div class="work-item me-3  my-2 position-relative">
+                            <img src="images/w1.webp" class="img-fluid w-100" title="w1" alt="w1" />
+                            <div
+                                class="work-overlay position-absolute top-0 start-0 bg-white w-100 h-100 d-flex justify-content-center align-items-center flex-column opacity-0  rounded">
+                                <p class="mb-0"> App Design</p>
+                                <h3 class="my-3">Colorlib Mobile App</h3>
+                                <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 ">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="work-item me-3 my-2 position-relative">
+                            <img src="images/w2.webp" class="img-fluid " width="98%" title="w2" alt="w2" />
+                            <div
+                                class="work-overlay position-absolute top-0 start-0 bg-white w-100 h-100 d-flex justify-content-center align-items-center flex-column opacity-0 rounded">
+                                <p class="mb-0"> App Design</p>
+                                <h3 class="my-3">Colorlib Mobile App</h3>
+                                <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 ">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4  col-md-6">
+                        <div class="work-item me-3  my-2 position-relative">
+                            <img src="images/w3.webp" class="img-fluid w-100 " title="w3" alt="w2" />
+                            <div
+                                class="work-overlay position-absolute top-0 start-0 bg-white w-100 h-100 d-flex justify-content-center align-items-center flex-column opacity-0 rounded">
+                                <p class="mb-0"> App Design</p>
+                                <h3 class="my-3">Colorlib Mobile App</h3>
+                                <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 ">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4  col-md-6">
+                        <div class="work-item  me-3 my-2 position-relative">
+                            <img src="images/w4.webp" class="img-fluid w-100" title="w4" alt="w2" />
+                            <div
+                                class="work-overlay position-absolute top-0 start-0 bg-white w-100 h-100 d-flex justify-content-center align-items-center flex-column opacity-0 rounded">
+                                <p class="mb-0"> App Design</p>
+                                <h3 class="my-3">Colorlib Mobile App</h3>
+                                <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 ">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4  col-md-6">
+                        <div class="work-item  me-3 my-2 position-relative">
+                            <img src="images/w5.webp" class="img-fluid w-100" title="w5" alt="w2" />
+                            <div
+                                class="work-overlay position-absolute top-0 start-0 bg-white w-100 h-100 d-flex justify-content-center align-items-center flex-column opacity-0 rounded">
+                                <p class="mb-0"> App Design</p>
+                                <h3 class="my-3">Colorlib Mobile App</h3>
+                                <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 ">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- work wotch -->
+
+        <section class="py wotch">
+            <div class="row px-0 ">
+                <div class="watch d-flex justify-content-center align-items-center ps-5">
+                    <div class="col-lg-6">
+                        <div class="container">
+                            <div class="wotch-item ps-5 ms-5">
+                                <h2 class="fs-1">How we work</h2>
+                                <p class="my-4">“Function information without cross action media value.</p>
+                                <p class="my-4">Efficiently unleash cross-media tour function information without cross
+                                    action media value. Quickly maximize timely deliverables for real-time schemas.</p>
+                                <h5><a href="#" class="btn rounded-circle btn-primary text-center me-3"><i class="ri-google-play-line"></i></a>Watch Video</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="wotch-img px-0">
+                            <img src="images/vidio.webp" class="rounded-start-5 img-fluid d-none d-lg-block" width="100%" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- team -->
+        <section class="py">
+            <div class="container">
+                <div class="team-title text-center pb-5">
+                    <h3>Our Creative Team</h3>
+                    <p>Tour function information without cross action media value quickly maximize timely deliverables.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item  position-relative overflow-hidden mx-3">
+                            <img src="images/t1.webp" alt="t1" width="100%" class="img-fluid">
+                            <div class="social position-absolute bottom-0 start-0  translate-middel-x d-flex justify-content-center align-items-center text-center">
+                                <a href="#" class=" d-inline-block text-center text-white text-decoration-none opacity-0 rounded-circle"><i class="ri-facebook-line"></i></a>
+                                <a href="#" class=" d-inline-block text-center text-white text-decoration-none opacity-0 rounded-circle mx-2"><i class="ri-twitter-line"></i></a>
+                                <a href="#"class=" d-inline-block text-center text-white text-decoration-none opacity-0 rounded-circle"><i class="ri-facebook-line"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-contait text-center">
+                            <h5 class="pt-3">Brandon Yeald</h5>
+                            <p>Founder & CEO</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item  position-relative overflow-hidden mx-3">
+                            <img src="images/t2.webp" alt="t1" width="100%" class="img-fluid">
+                            <div class="social position-absolute bottom-0 start-0  translate-middel-x d-flex justify-content-center align-items-center text-center">
+                                <a href="#" class=" d-inline-block text-center text-white text-decoration-none opacity-0 rounded-circle"><i class="ri-facebook-line"></i></a>
+                                <a href="#" class=" d-inline-block text-center text-white text-decoration-none opacity-0 rounded-circle mx-2"><i class="ri-twitter-line"></i></a>
+                                <a href="#"class=" d-inline-block text-center text-white text-decoration-none opacity-0 rounded-circle"><i class="ri-facebook-line"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-contait text-center">
+                            <h5 class="pt-3">Brandon Yeald</h5>
+                            <p>Founder & CEO</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item  position-relative overflow-hidden mx-3">
+                            <img src="images/t3.webp" alt="t1" width="100%" class="img-fluid">
+                            <div class="social position-absolute bottom-0 start-0  translate-middel-x d-flex justify-content-center align-items-center text-center">
+                                <a href="#" class=" d-inline-block text-center text-white text-decoration-none opacity-0 rounded-circle"><i class="ri-facebook-line"></i></a>
+                                <a href="#" class=" d-inline-block text-center text-white text-decoration-none opacity-0 rounded-circle mx-2"><i class="ri-twitter-line"></i></a>
+                                <a href="#"class=" d-inline-block text-center text-white text-decoration-none opacity-0 rounded-circle"><i class="ri-facebook-line"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-contait text-center">
+                            <h5 class="pt-3">Brandon Yeald</h5>
+                            <p>Founder & CEO</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item  position-relative overflow-hidden mx-3">
+                            <img src="images/t4.webp" alt="t1" width="100%" class="img-fluid">
+                            <div class="social position-absolute bottom-0 start-0  translate-middel-x d-flex justify-content-center align-items-center text-center">
+                                <a href="#" class=" d-inline-block text-center text-white text-decoration-none opacity-0 rounded-circle"><i class="ri-facebook-line"></i></a>
+                                <a href="#" class=" d-inline-block text-center text-white text-decoration-none opacity-0 rounded-circle mx-2"><i class="ri-twitter-line"></i></a>
+                                <a href="#"class=" d-inline-block text-center text-white text-decoration-none opacity-0 rounded-circle"><i class="ri-facebook-line"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-contait text-center">
+                            <h5 class="pt-3">Brandon Yeald</h5>
+                            <p>Founder & CEO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- review -->
+        <section class="review py">
+            <div class="container">
+                <div class="carousel slide" id="kk" data-bs-ride="caro"></div>
+                <div class="carosel-inner">
+                    <div class="carosel-item active">
+                        <div class="carousel-caption d-flex position-absolute pb-30 align-items-center justify-content-center flex-column">
+                            <img src="images/q.svg" alt="">
+                            <p class="py-4">Dolor sit amet consecteturatione quibusdam Lorem ipsum doling elit. Quidem, cumque! esse? Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, blanditiis.</p>
+                            <img src="images/thum.webp" alt="">
+                            <h5 class="fs-6 pt-3">Robert Thomson</h5>
+                            <h6>Business Owner</h6>
+                        </div>
+                    </div>
+                    <div class="carosel-item">
+                        <div class="carousel-caption d-flex position-absolute pb-30 align-items-center justify-content-center flex-column">
+                            <img src="images/q.svg" alt="">
+                            <p class="py-4">Dolor sit amet consecteturatione quibusdam Lorem ipsum doling elit. Quidem, cumque! esse? Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, blanditiis.</p>
+                            <img src="images/thum.webp" alt="">
+                            <h5 class="fs-6 pt-3">Robert Thomson</h5>
+                            <h6>Business Owner</h6>
+                        </div>
+                    </div>
+                </div>
+                 <button class="carousel-control-prev" type="button" data-bs-target="#banner" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#banner" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>s
+            </div>
+        </section>
+
+        <!-- form -->
+        <section class="py">
+            <div class="container">
+                <div class="form-title text-center pb-5">
+                    <h3>Get in Touch</h3>
+                    <p>Tour function information without cross action media value quickly maximize timely deliverables.</p>
+                </div>
+                <form>
+                    <div class="form-item">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <input type="text" placeholder="Your Name" class="form-control rounded-pill py-3 mx-2 my-3">
+                            </div>              
+                            <div class="col-lg-6">
+                                <input type="Email" placeholder="Email" class="form-control rounded-pill py-3 my-3">
+                            </div>
+                            <div class="col-12">
+                                <input type="email" class="form-control rounded-pill my-3  py-3 " placeholder=" Subject">
+                            </div>
+                            <div class="col-12"> 
+                                 <textarea cols="30" class="ps-2 py-1 my-3 w-100"  rows="10"> Message</textarea>
+                            </div>
+                            <div class="col-12">
+                                 <button class="btn btn-primary form-control rounded-pill py-3 my-3">Send Message</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- footer -->
+    <footer class="py  bg-dark">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="footer-logo">
+                            <a href="#">
+                                <img src="images/logo.png.webp" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="footer-menu">
+                            <ul class="">
+                                <li class=""><a href="#" class="nav-link text-white  py-2">HOME</a></li>
+                                <li class=""><a href="#" class="nav-link text-white  py-2">SERVICE</a></li>
+                                <li class=""><a href="#" class="nav-link text-white  py-2">PORTFOLIO</a></li>
+                                <li class=""><a href="#" class="nav-link text-white  py-2">PAGES</a></li>
+                                <li class=""><a href="#" class="nav-link text-white  py-2">BLOG </a></li>
+                                <li class=""><a href="#" class="nav-link text-white  py-2">CONTACT </a></li>
+                            </ul>      
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer-icon">
+                            <a href="#" class="text-decoration-none btn rounded-circle mx-1 btn-white text-white"><i class="ri-facebook-line"></i></a>
+                            <a href="#" class="text-decoration-none btn rounded-circle mx-1 btn-white text-white"><i class="ri-twitter-line"></i></a>
+                            <a href="#" class="text-decoration-none btn rounded-circle mx-1 btn-white text-white"><i class="ri-instagram-line"></i></a>
+                            <a href="#" class="text-decoration-none btn rounded-circle mx-1 btn-white text-white"><i class="ri-google-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </footer>
+    <div class="footer-title  bg-dark text-center">
+        <div class="container">
+            <div class="footer-border"></div>
+            <div class="col-xl-12">
+                <p class="text-secondary">Copyright ©2023 All rights reserved | This template is made with<i class="ri-heart-line"></i> by <span class="text-primary">Colorlib</span></p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+</body>
+
+</html>
