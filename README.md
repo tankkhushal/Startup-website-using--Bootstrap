@@ -1,4 +1,6 @@
+home page
 ![b1](https://github.com/user-attachments/assets/2ad60a9e-0c12-4a42-8e0c-f74018405d31)
+about page
 ![b2](https://github.com/user-attachments/assets/6d192c33-0b08-4db9-bc8b-badc32e3bf70)
 ![b3](https://github.com/user-attachments/assets/c6e57ad2-ad65-4a68-8154-d4ed7f7fa453)
 ![b4](https://github.com/user-attachments/assets/c64da231-ec6e-4618-badc-413c842ffb2d)
